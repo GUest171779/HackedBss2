@@ -95,7 +95,7 @@ window.playerGear={
             count:5,
             diameter:45,
             power:1,
-            rate:0.1,
+            rate:1,
             mesh:function(x,y,z,box,cylinder){
 
                 cylinder(x,y+0.25,z,0.15,2.5,10,0.9,0.9,0.5,1,90,0,0)
