@@ -1000,7 +1000,7 @@ window.playerGear={
                 player.addEffect('gooTrailPassive')
                 stats.criticalChance+=1
                 stats.criticalPower+=9999999
-                stats.beeSpeed*=100
+                stats.beeSpeed*=2
                
             },
             desc:'A small bag.<br><br>+200 capacity',
