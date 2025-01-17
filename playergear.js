@@ -975,15 +975,15 @@ window.playerGear={
                 stats.whitePollen*=999999
                 stats.redPollen*=99999
                 stats.convertRate*=999999
-                stats.convertRateAtHive*=999999
-                stats.bubblePollen*=99999
+                stats.convertRateAtHive*=99999999999
+                stats.bubblePollen*=999999999999
                 stats.redBeeAbilityRate*=999999
                 stats.blueBeeAbilityRate*=999999
                 stats.whiteBeeAbilityRate*=99999
                 player.addEffect('diamondDrainPassive')
                 player.addEffect('bubbleBombsPassive')
                 player.addEffect('petalStormPassive')
-                stats.movementCollection+=9999999
+                stats.movementCollection+=99999999999999
                 stats.walkSpeed*=2
                 stats.jumpPower*=1.5
                 stats.pollenFromCoconuts*=99999
@@ -998,9 +998,9 @@ window.playerGear={
                 player.addEffect('gummyMorphPassive')
                 player.addEffect('coinScatterPassive')
                 player.addEffect('gooTrailPassive')
-                stats.criticalChance+=1
+                stats.criticalChance+=100
                 stats.criticalPower+=9999999
-                stats.beeSpeed*=2
+                stats.beeSpeed*=4
                
             },
             desc:'A small bag.<br><br>+200 capacity',
