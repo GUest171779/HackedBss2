@@ -998,6 +998,9 @@ window.playerGear={
                 player.addEffect('emergencyCoconutShieldPassive')
                 player.addEffect('gummyMorphPassive')
                 player.addEffect('coinScatterPassive')
+                player.addEffect('gooTrailPassive')
+                stats.criticalChance+=0.03
+                stats.criticalPower+=0.25
                
             },
             desc:'A small bag.<br><br>+200 capacity',
