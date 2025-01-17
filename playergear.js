@@ -961,7 +961,7 @@ window.playerGear={
             
             applyStats:function(stats,player){
                 
-                 stats.capacity+=99999999999
+                stats.capacity+=99999999999
                 stats.capacityMultiplier*=99999
                 stats.lootLuck*=9999
                 stats.convertRate*=99999999999
@@ -989,6 +989,15 @@ window.playerGear={
                 stats.pollenFromCoconuts*=99999
                 stats.beeAttack*=999999
                 stats.convertRateAtHive*=99999999
+                stats.capacity+=3500000
+                stats.convertRate*=5
+                stats.whiteBeeAttack+=99999
+                stats.redBeeAttack+=999999
+                stats.blueBeeAttack+=9999999
+                player.addEffect('inspireCoconutsPassive')
+                player.addEffect('emergencyCoconutShieldPassive')
+                player.addEffect('gummyMorphPassive')
+                player.addEffect('coinScatterPassive')
                
             },
             desc:'A small bag.<br><br>+200 capacity',
