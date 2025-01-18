@@ -984,7 +984,6 @@ window.playerGear={
                 player.addEffect('bubbleBombsPassive')
                 player.addEffect('petalStormPassive')
                 stats.movementCollection+=99999999999999999999
-                stats.movementCollection*=99999999999999999999
                 stats.walkSpeed*=1.5
                 stats.jumpPower*=1.45
                 stats.pollenFromCoconuts*=99999
@@ -1000,8 +999,7 @@ window.playerGear={
                 player.addEffect('coinScatterPassive')
                 player.addEffect('gooTrailPassive')
                 stats.criticalChance+=100
-                stats.criticalChance*=100
-                stats.criticalPower*=9999999
+                stats.criticalPower+=9999999
                 stats.beeSpeed*=9999
                
             },
