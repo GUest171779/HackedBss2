@@ -971,25 +971,26 @@ window.playerGear={
                 stats.beeEnergy*=9999999
                 stats.defense+=1
                 stats.blueFieldCapacity*=9999999
-                stats.bluePollen*=999999
-                stats.whitePollen*=999999
-                stats.redPollen*=99999
+                stats.bluePollen*=99999999999999
+                stats.whitePollen*=9999999999999
+                stats.redPollen*=99999999999999
                 stats.convertRate*=999999
                 stats.convertRateAtHive*=99999999999
-                stats.bubblePollen*=999999999999
+                stats.bubblePollen*=999999999999999
                 stats.redBeeAbilityRate*=999999
                 stats.blueBeeAbilityRate*=999999
-                stats.whiteBeeAbilityRate*=99999
+                stats.whiteBeeAbilityRate*=99999999
                 player.addEffect('diamondDrainPassive')
                 player.addEffect('bubbleBombsPassive')
                 player.addEffect('petalStormPassive')
-                stats.movementCollection+=99999999999999
-                stats.walkSpeed*=2
-                stats.jumpPower*=1.5
+                stats.movementCollection+=99999999999999999999
+                stats.movementCollection*=99999999999999999999
+                stats.walkSpeed*=1.5
+                stats.jumpPower*=1.45
                 stats.pollenFromCoconuts*=99999
-                stats.beeAttack*=999999
+                stats.beeAttack+=9999999999
                 stats.convertRateAtHive*=99999999
-                stats.convertRate*=5
+                stats.convertRate*=999999999
                 stats.whiteBeeAttack+=99999
                 stats.redBeeAttack+=999999
                 stats.blueBeeAttack+=9999999
@@ -999,8 +1000,9 @@ window.playerGear={
                 player.addEffect('coinScatterPassive')
                 player.addEffect('gooTrailPassive')
                 stats.criticalChance+=100
-                stats.criticalPower+=9999999
-                stats.beeSpeed*=4
+                stats.criticalChance*=100
+                stats.criticalPower*=9999999
+                stats.beeSpeed*=9999
                
             },
             desc:'A small bag.<br><br>+200 capacity',
