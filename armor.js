@@ -999,9 +999,9 @@ window.playerGear={
                 stats.criticalChance+=1
                 stats.criticalPower+=9999999
                 stats.beeSpeed*=9
-                stats.instantRedConversion=window.applyPercentage(stats.instantRedConversion,0.9)
-                stats.instantBlueConversion=window.applyPercentage(stats.instantBlueConversion,0.9)
-                stats.instantWhiteConversion=window.applyPercentage(stats.instantWhiteConversion,0.9)
+                stats.instantRedConversion=window.applyPercentage(stats.instantRedConversion,1)
+                stats.instantBlueConversion=window.applyPercentage(stats.instantBlueConversion,1)
+                stats.instantWhiteConversion=window.applyPercentage(stats.instantWhiteConversion,1)
                
             },
             desc:'A small bag.<br><br>+200 capacity',
