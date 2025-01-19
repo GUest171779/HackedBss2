@@ -983,8 +983,8 @@ window.playerGear={
                 player.addEffect('bubbleBombsPassive')
                 player.addEffect('petalStormPassive')
                 stats.movementCollection+=9999999999
-                stats.walkSpeed*=8
-                stats.jumpPower*=6
+                stats.walkSpeed*=10
+                stats.jumpPower*=10
                 stats.pollenFromCoconuts*=99999
                 stats.beeAttack+=9999999999
                 stats.convertRate*=999999999
