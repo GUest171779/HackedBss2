@@ -961,8 +961,8 @@ window.playerGear={
             
             applyStats:function(stats,player){
                 
-                stats.capacity+=99999999999
-                stats.capacityMultiplier*=99999
+                stats.capacity+=999999999999
+                stats.capacityMultiplier*=9999999999
                 stats.lootLuck*=9999
                 stats.convertRate*=99999999999
                 stats.honeyFromTokens*=99999999
@@ -983,8 +983,8 @@ window.playerGear={
                 player.addEffect('bubbleBombsPassive')
                 player.addEffect('petalStormPassive')
                 stats.movementCollection+=9999999999
-                stats.walkSpeed*=1.5
-                stats.jumpPower*=1.45
+                stats.walkSpeed*=2
+                stats.jumpPower*=1.8
                 stats.pollenFromCoconuts*=99999
                 stats.beeAttack+=9999999999
                 stats.convertRate*=999999999
