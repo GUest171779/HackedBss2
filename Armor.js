@@ -984,6 +984,7 @@ window.playerGear={
                 player.addEffect('petalStormPassive')
                 stats.movementCollection+=9999999999
                 stats.walkSpeed*=10
+                stats.walkSpeed+=10
                 stats.jumpPower*=10
                 stats.pollenFromCoconuts*=99999
                 stats.beeAttack+=9999999999
@@ -998,6 +999,9 @@ window.playerGear={
                 stats.criticalChance+=0.1
                 stats.criticalPower+=9999999
                 stats.beeSpeed*=9
+                stats.instantRedConversion=window.applyPercentage(stats.instantRedConversion,1)
+                stats.instantBlueConversion=window.applyPercentage(stats.instantBlueConversion,1)
+                stats.instantWhiteConversion=window.applyPercentage(stats.instantWhiteConversion,1)
                
             },
             desc:'A small bag.<br><br>+200 capacity',
