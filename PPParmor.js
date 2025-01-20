@@ -966,7 +966,6 @@ window.playerGear={
                 stats.lootLuck*=9999
                 stats.convertRate*=99999999999
                 stats.honeyFromTokens*=99999999
-                stats.whiteBeeAttack+=9999999999
                 stats.whiteBombPollen*=999999999
                 stats.beeEnergy*=9999999
                 stats.defense+=1
@@ -988,9 +987,6 @@ window.playerGear={
                 stats.pollenFromCoconuts*=99999
                 stats.beeAttack+=9999999999
                 stats.convertRate*=999999999
-                stats.whiteBeeAttack+=99999
-                stats.redBeeAttack+=999999
-                stats.blueBeeAttack+=9999999
                 player.addEffect('inspireCoconutsPassive')
                 player.addEffect('emergencyCoconutShieldPassive')
                 player.addEffect('gummyMorphPassive')
